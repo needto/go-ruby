@@ -1,0 +1,7 @@
+Simple example of compiling and calling Go code from ruby
+
+compile_locally.sh compiles a mylib.so file using local go
+
+compile_with_docker_for_linux.sh pulls a docker image with go preinstalled and compiles the module using it to get a linux architecture module from osx for example
+
+once module is compiled you can run script.rb to test it
